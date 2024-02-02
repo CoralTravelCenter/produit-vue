@@ -1,0 +1,6 @@
+{
+    contents: [
+        './page1.html',
+        './page2.html'
+    ]
+}
