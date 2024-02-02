@@ -9,9 +9,13 @@
     "alias": {
         "vue": {
             "global": "Vue"
+        },
+        "primevue": {
+            "global": "primevue"
         }
     },
     "dependencies": {
+        "primevue": "^3.47.2",
         "vue": "^3.4.15"
     }
 }
