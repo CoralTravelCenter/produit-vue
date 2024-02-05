@@ -1,12 +1,13 @@
 <script setup>
+import departures from '../config/departures.yaml';
 import Dropdown from "primevue/dropdown";
 
 import { ref } from "vue";
 
 const props = defineProps(['options', 'productList']);
 
-const selected = ref();
-const options = ref(['opt1', 'opt2', 'opt3']);
+const selectedDeparture = ref(departures[0]);
+const departureOptions = ref(departures);
 
 const date = ref();
 
@@ -15,7 +16,12 @@ const date = ref();
 <template>
     <div>
         {{ props.options.prop }}
-        <Dropdown v-model="selected" :options="options"></Dropdown>
+        <Dropdown v-model="selectedDeparture" filter
+                  :options="departureOptions" option-label="name">
+            <template #value="{ value }">из {{ value.fromForm }}</template>
+            <template #header>город вылета</template>
+            <template #option="{ option }">{{ option.correctName ?? option.name }}</template>
+        </Dropdown>
     </div>
 </template>
 
