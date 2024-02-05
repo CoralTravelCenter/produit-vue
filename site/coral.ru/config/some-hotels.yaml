@@ -1,0 +1,362 @@
+﻿# File created by Easy Data Transform v1_46_3 at 2024_02_05 19_35_51_999 
+---
+-
+  ID: 180
+  areaID: 70
+  areaName: Hurghada
+  arealName: Хургада (Hurghada)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 12
+  countryName: Egypt
+  countrylName: Египет
+  lastUpdate: 2024-02-03T02:03:15.680
+  lname: SEA STAR BEAURIVAGE
+  name: SEA STAR BEAURIVAGE
+  placeID: 1966
+  placeName: Dahar
+  placelname: Дахар (Dahar)
+  regionID: 10
+  regionName: Red Sea
+  regionlName: Хургада
+  tripAdvisorCode: 316684
+-
+  ID: 874
+  areaID: 3
+  areaName: Alanya
+  arealName: Аланья (Alanya)
+  categoryID: 36
+  categoryName: 5*HV
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T05:52:10.027
+  lname: EFTALIA VILLAGE HOTEL
+  name: EFTALIA VILLAGE HOTEL
+  placeID: 2131
+  placeName: Turkler
+  placelname: Турклер (Turkler)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 647593
+-
+  ID: 1700
+  areaID: 165
+  areaName: North Male Atoll
+  arealName: Северный Мале Атолл (North Male Atoll)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 35
+  countryName: Maldives
+  countrylName: Мальдивы
+  lastUpdate: 2024-02-03T06:29:04.100
+  lname: SHERATON MALDIVES FULL MOON RESORT & SPA
+  name: SHERATON MALDIVES FULL MOON RESORT & SPA
+  placeID: 235
+  placeName: North Male Atoll
+  placelname: Северный Мале Атолл (North Male Atoll)
+  regionID: 135
+  regionName: Maldives
+  regionlName: Maldives
+  tripAdvisorCode: 478381
+-
+  ID: 2640
+  areaID: 13778
+  areaName: Beau Vallon Mahe Island
+  arealName: о. Маэ, Beau Vallon
+  categoryID: 7
+  categoryName: 2*
+  countryID: 39
+  countryName: Seychelles
+  countrylName: Сейшелы
+  lastUpdate: 2024-02-03T10:00:23.990
+  lname: BORD MER VILLA
+  name: BORD MER VILLA
+  placeID: 14353
+  placeName: Beau Vallon Mahe Island
+  placelname: Beau Vallon Mahe Island
+  regionID: 15040
+  regionName: Victoria
+  regionlName: Victoria
+  tripAdvisorCode: 1627634
+-
+  ID: 3383
+  areaID: 285
+  areaName: Varadero
+  arealName: Варадеро (Varadero)
+  categoryID: 3
+  categoryName: 3*
+  countryID: 48
+  countryName: Cuba
+  countrylName: Куба
+  lastUpdate: 2024-02-03T02:46:33.030
+  lname: HOTEL ISLAZUL CLUB TROPICAL
+  name: HOTEL ISLAZUL CLUB TROPICAL
+  placeID: 339
+  placeName: Varadero
+  placelname: Варадеро (Varadero)
+  regionID: 148
+  regionName: Varadero
+  regionlName: Варадеро (Varadero)
+  tripAdvisorCode: 151610
+-
+  ID: 4508
+  areaID: 13781
+  areaName: Carana Mahe Island
+  arealName: о. Маэ, Carana
+  categoryID: 22
+  categoryName: Special Category
+  countryID: 39
+  countryName: Seychelles
+  countrylName: Сейшелы
+  lastUpdate: 2024-02-03T17:47:54.590
+  lname: CARANA HILLTOP VILLA
+  name: CARANA HILLTOP VILLA
+  placeID: 14382
+  placeName: Glacis Mahe Island
+  placelname: Glacis Mahe Island
+  regionID: 15040
+  regionName: Victoria
+  regionlName: Victoria
+  tripAdvisorCode: 2101713
+-
+  ID: 4632
+  areaID: 3268
+  areaName: Mauritius East Coast
+  arealName: Восточное побережье (East Coast)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 63
+  countryName: Mauritius
+  countrylName: Маврикий
+  lastUpdate: 2024-02-03T17:48:22.860
+  lname: AMBRE HOTEL
+  name: AMBRE HOTEL
+  placeID: 1987
+  placeName: Mauritius East Coast
+  placelname: East Coast
+  regionID: 266
+  regionName: Mauritius East Coast
+  regionlName: East Coast
+  tripAdvisorCode: 316733
+-
+  ID: 12880
+  areaID: 10
+  areaName: Side
+  arealName: Сиде (Side)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T04:40:11.490
+  lname: KAMELYA SELIN HOTEL
+  name: KAMELYA SELIN HOTEL
+  placeID: 127
+  placeName: Colakli
+  placelname: Чолаклы (Colakli)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 1126844
+-
+  ID: 13448
+  areaID: 10
+  areaName: Side
+  arealName: Сиде (Side)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-29T04:54:09.327
+  lname: KAMELYA FULYA HOTEL
+  name: KAMELYA FULYA HOTEL
+  placeID: 127
+  placeName: Colakli
+  placelname: Чолаклы (Colakli)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 304610
+-
+  ID: 15670
+  areaID: 272
+  areaName: Sharjah
+  arealName: Шарджа (Sharjah)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 31
+  countryName: United Arab Emirates
+  countrylName: ОАЭ
+  lastUpdate: 2024-02-03T05:02:02.410
+  lname: SHERATON SHARJAH BEACH RESORT & SPA
+  name: SHERATON SHARJAH BEACH RESORT & SPA
+  placeID: 327
+  placeName: Sharjah
+  placelname: Шарджа (Sharjah)
+  regionID: 58
+  regionName: Sharjah
+  regionlName: Шарджа (Sharjah)
+  tripAdvisorCode: 8320291
+-
+  ID: 22770
+  areaID: 285
+  areaName: Varadero
+  arealName: Варадеро (Varadero)
+  categoryID: 3
+  categoryName: 3*
+  countryID: 48
+  countryName: Cuba
+  countrylName: Куба
+  lastUpdate: 2024-02-03T03:33:37.667
+  lname: STARFISH VARADERO
+  name: STARFISH VARADERO
+  placeID: 339
+  placeName: Varadero
+  placelname: Варадеро (Varadero)
+  regionID: 148
+  regionName: Varadero
+  regionlName: Варадеро (Varadero)
+  tripAdvisorCode: 275185
+-
+  ID: 27925
+  areaID: 151
+  areaName: Phuket
+  arealName: о. Пхукет (Phuket)
+  categoryID: 3
+  categoryName: 3*
+  countryID: 33
+  countryName: Thailand
+  countrylName: Таиланд
+  lastUpdate: 2023-12-11T11:53:49.477
+  lname: OUTDOOR INN KATA
+  name: OUTDOOR INN KATA
+  placeID: 10361
+  placeName: Kata Beach
+  placelname: пляж Ката (Kata Beach)
+  regionID: 51
+  regionName: Phuket
+  regionlName: Phuket
+  tripAdvisorCode: 
+-
+  ID: 28366
+  areaID: 3270
+  areaName: Mauritius North Coast
+  arealName: Северное побережье  (North Coast)
+  categoryID: 3
+  categoryName: 3*
+  countryID: 63
+  countryName: Mauritius
+  countrylName: Маврикий
+  lastUpdate: 2024-02-03T06:40:39.993
+  lname: TARISA RESORT & SPA
+  name: TARISA RESORT & SPA
+  placeID: 1989
+  placeName: Mauritius North Coast
+  placelname: North Coast
+  regionID: 268
+  regionName: Mauritius North Coast
+  regionlName: North Coast
+  tripAdvisorCode: 589483
+-
+  ID: 29232
+  areaID: 12922
+  areaName: Vaavu Atoll
+  arealName: Вааву Атолл (Vaavu Atoll)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 35
+  countryName: Maldives
+  countrylName: Мальдивы
+  lastUpdate: 2024-02-03T06:43:02.110
+  lname: CINNAMON VELIFUSHI MALDIVES
+  name: CINNAMON VELIFUSHI MALDIVES
+  placeID: 10735
+  placeName: Vaavu Atoll
+  placelname: Vaavu Atoll
+  regionID: 135
+  regionName: Maldives
+  regionlName: Maldives
+  tripAdvisorCode: 17789963
+-
+  ID: 29403
+  areaID: 151
+  areaName: Phuket
+  arealName: о. Пхукет (Phuket)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 33
+  countryName: Thailand
+  countrylName: Таиланд
+  lastUpdate: 2023-11-10T17:43:45.857
+  lname: CHABANA KAMALA HOTEL
+  name: CHABANA KAMALA HOTEL
+  placeID: 880
+  placeName: Kamala Beach
+  placelname: пляж Камала (Kamala Beach)
+  regionID: 51
+  regionName: Phuket
+  regionlName: Phuket
+  tripAdvisorCode: 
+-
+  ID: 29449
+  areaID: 8
+  areaName: Kemer
+  arealName: Кемер (Kemer)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2023-12-18T19:31:44
+  lname: BALMY BEACH RESORT KEMER
+  name: BALMY BEACH RESORT KEMER
+  placeID: 107
+  placeName: Beldibi
+  placelname: Бельдиби (Beldibi)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 
+-
+  ID: 42937
+  areaID: 148
+  areaName: Dubai
+  arealName: Дубай (Dubai)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 31
+  countryName: United Arab Emirates
+  countrylName: ОАЭ
+  lastUpdate: 2023-12-22T16:11:46.870
+  lname: GRAND MERCURE DUBAI CITY
+  name: GRAND MERCURE DUBAI CITY
+  placeID: 842
+  placeName: Deira
+  placelname: Дейра (Deira)
+  regionID: 18
+  regionName: Dubai
+  regionlName: Дубай (Dubai)
+  tripAdvisorCode: 
+-
+  ID: 49757
+  areaID: 70
+  areaName: Hurghada
+  arealName: Хургада (Hurghada)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 12
+  countryName: Egypt
+  countrylName: Египет
+  lastUpdate: 2024-02-03T07:27:24.860
+  lname: XANADU MAKADI BAY
+  name: XANADU MAKADI BAY
+  placeID: 171
+  placeName: Makadi Bay
+  placelname: Макади-Бэй (Makadi Bay)
+  regionID: 10
+  regionName: Red Sea
+  regionlName: Хургада
+  tripAdvisorCode: 23940505

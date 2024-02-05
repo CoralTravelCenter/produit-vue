@@ -10,7 +10,7 @@
         "vue": {
             "global": "Vue"
         },
-        "primevue": {
+        "_primevue": {
             "global": "primevue"
         }
     },
