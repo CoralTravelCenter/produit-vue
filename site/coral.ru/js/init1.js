@@ -9,10 +9,15 @@ app_el
     .closest('.oti-content-typography')
     .classList.remove('oti-content-typography');
 
+import some_hotels from '../config/some-hotels.yaml'
+
 createApp(ProduitVue, {
     options: {
-        prop: 'list 1'
-    }
+        groupByField: 'countrylName',
+        // wildcardOption: 'Все отели'
+        // groupByField: 'arealName',
+    },
+    productList: some_hotels
 })
     .use(ElementPlus)
     .mount(app_el);
