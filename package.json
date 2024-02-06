@@ -10,12 +10,13 @@
         "vue": {
             "global": "Vue"
         },
-        "_primevue": {
-            "global": "primevue"
+        "process": false,
+        "element-plus": {
+            "global": "ElementPlus"
         }
     },
     "dependencies": {
-        "primevue": "^3.47.2",
+        "element-plus": "^2.4.4",
         "vue": "^3.4.15"
     }
 }

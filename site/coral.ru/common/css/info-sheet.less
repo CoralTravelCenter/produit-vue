@@ -1,0 +1,39 @@
+.infosheet-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: (12/20em);
+    line-height: 1.2;
+    .icon {
+        width: 2.3em;
+        max-width: 57px;
+    }
+    .info {
+        text-align: center;
+        font-weight: 300;
+        margin-top: .5em;
+        strong {
+            font-weight: 700;
+            color: black;
+        }
+    }
+}
+a.infosheet-item {
+    .info {
+        strong {
+            color: inherit;
+        }
+    }
+}
+.info-sheet {
+	&[data-view-mode=map] {
+		.infosheet-item {
+			flex-direction: row;
+			.info {
+				text-align: left;
+				margin-top: 0;
+				margin-left: 1em;
+			}
+		}
+	}
+}
