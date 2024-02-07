@@ -2,8 +2,15 @@
 import departures from '../config/departures.yaml';
 
 import { computed, onMounted, provide, ref, watchEffect } from "vue";
-import { observeElementProp } from "./usefuls";
+import { observeElementProp, params2query, queryParam } from "./usefuls";
 import RegionSelect from "./RegionSelect.vue";
+
+import dayjs from "dayjs";
+import locale_ru from 'dayjs/locale/ru'
+import { apiUrl, fetchPackageSearchLinkWithQuery, packageQueryWithProduct } from "./api-adapter";
+dayjs.locale(locale_ru);
+
+import hash from 'object-hash';
 
 const props = defineProps(['options', 'productList']);
 
@@ -55,6 +62,50 @@ const regionsOptions = computed(() => {
 });
 const selectedRegion = ref();
 
+const monthsOptions = computed(() => {
+    const since_months = props.productList.map(p => dayjs(p.since).format('YYYY-MM'));
+    return [...(new Set(since_months))];
+});
+const selectedMonth = ref();
+
+const matchedProductList = computed(() => {
+    if (selectedRegion.value && selectedMonth.value) {
+        const selected_dayjs = dayjs(selectedMonth.value);
+        return props.productList.filter(p => {
+            return (selectedRegion.value === '*' || p[props.options.groupByField] === selectedRegion.value)
+                && selected_dayjs.isSame(p.since, 'month');
+        });
+    }
+    return [];
+});
+
+watchEffect(async () => {
+    if (selectedDeparture.value && selectedRegion.value && selectedMonth.value) {
+
+    }
+    console.log('+++ matched: %o', matchedProductList.value);
+    const queries = {};
+    for (const product of matchedProductList.value) {
+        const q = await packageQueryWithProduct(product, selectedDeparture.value, props.options.chartersOnly);
+        const q_hash = hash(q);
+        queries[q_hash] ||= {};
+        queries[q_hash].query = q;
+        queries[q_hash].hotels ||= [];
+        queries[q_hash].hotels.push(product.ID);
+    }
+    console.log('+++ queries: %o', queries);
+    for (const q of Object.values(queries)) {
+        const href = await fetchPackageSearchLinkWithQuery(q.query);
+        const [url] = href.split('?');
+        const params = queryParam(undefined, href);
+        params.pp = q.hotels.length;
+        params.f.Hid = q.hotels;
+        let final_href = `${ url }?${ params2query(params) }`;
+        console.log('+++ final_href: %o', final_href);
+        const search_results_html = await fetch(apiUrl(final_href)).then(response => response.text());
+        // console.log(search_results_html);
+    }
+});
 
 </script>
 
@@ -77,6 +128,13 @@ const selectedRegion = ref();
                            :label="`из ${ departure.fromForm }`"
                            :value="departure">
                     <span>{{ departure.correctName || departure.name }}</span>
+                </el-option>
+            </el-select>
+            <el-select v-model="selectedMonth">
+                <el-option v-for="month in monthsOptions"
+                           :value="month"
+                           :label="dayjs(month).format('MMMM')">
+                    <span>{{ dayjs(month).format('MMMM') }}</span>
                 </el-option>
             </el-select>
         </div>

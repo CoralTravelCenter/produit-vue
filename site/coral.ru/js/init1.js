@@ -14,7 +14,8 @@ import some_hotels from '../config/some-hotels.yaml'
 createApp(ProduitVue, {
     options: {
         groupByField: 'countrylName',
-        // wildcardOption: 'Все отели'
+        chartersOnly: false,
+        wildcardOption: 'Все отели'
         // groupByField: 'arealName',
     },
     productList: some_hotels
