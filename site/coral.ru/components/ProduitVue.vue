@@ -1,8 +1,8 @@
 <script setup>
 import departures from '../config/departures.yaml';
 
-import { computed, onMounted, provide, ref, watchEffect } from "vue";
-import { observeElementProp, params2query, queryParam } from "./usefuls";
+import { computed, onMounted, provide, reactive, ref, watchEffect } from "vue";
+import { observeElementProp, params2query, parseLegacyHotelCard, queryParam } from "./usefuls";
 import RegionSelect from "./RegionSelect.vue";
 
 import dayjs from "dayjs";
@@ -11,6 +11,7 @@ import { apiUrl, fetchPackageSearchLinkWithQuery, packageQueryWithProduct } from
 dayjs.locale(locale_ru);
 
 import hash from 'object-hash';
+import ProductGrid from "./ProductGrid.vue";
 
 const props = defineProps(['options', 'productList']);
 
@@ -20,6 +21,9 @@ const { value: departureCityId } = window.global?.getActiveDeparture?.call() ?? 
 const selectedDeparture = ref(
     departures.find(dep => Number(dep.eeID) === Number(departureCityId))
 );
+
+provide('selected-departure', selectedDeparture);
+
 observeElementProp(document.querySelector('input.packageSearch__departureInput'), 'value', (new_departure_name) => {
     if (new_departure_name) {
         const found_departure = departures.find(dep => dep.name === new_departure_name);
@@ -79,6 +83,8 @@ const matchedProductList = computed(() => {
     return [];
 });
 
+const offersList = reactive([]);
+
 watchEffect(async () => {
     if (selectedDeparture.value && selectedRegion.value && selectedMonth.value) {
 
@@ -94,6 +100,7 @@ watchEffect(async () => {
         queries[q_hash].hotels.push(product.ID);
     }
     console.log('+++ queries: %o', queries);
+    offersList.splice(0);
     for (const q of Object.values(queries)) {
         const href = await fetchPackageSearchLinkWithQuery(q.query);
         const [url] = href.split('?');
@@ -104,6 +111,13 @@ watchEffect(async () => {
         console.log('+++ final_href: %o', final_href);
         const search_results_html = await fetch(apiUrl(final_href)).then(response => response.text());
         // console.log(search_results_html);
+        const domParser = new DOMParser();
+        const doc = domParser.parseFromString(search_results_html, 'text/html');
+        const items = doc.querySelectorAll('.row.item[data-package-layer]');
+        const parsed_offers = [...items].map(item_el => parseLegacyHotelCard(item_el));
+        console.log('+++ parsed_offers: %o', parsed_offers);
+        offersList.push(...parsed_offers);
+        offersList.sort((a, b) => a.Price - b.Price);
     }
 });
 
@@ -138,9 +152,7 @@ watchEffect(async () => {
                 </el-option>
             </el-select>
         </div>
-        <div class="product-grid">
-            list
-        </div>
+        <ProductGrid :offers="offersList"></ProductGrid>
     </div>
 </template>
 
@@ -199,10 +211,6 @@ watchEffect(async () => {
         display: flex;
         align-items: center;
         gap: 1em;
-    }
-
-    .product-grid {
-
     }
 
 }

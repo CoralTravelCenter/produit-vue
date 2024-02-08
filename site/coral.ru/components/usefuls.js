@@ -74,3 +74,16 @@ export function approxFlightDuration(departure, destination) {
     const multiplier = 1.1;
     return Math.round(((distance / avgSpeed + 1) * multiplier) * 2) / 2;
 }
+
+export function parseLegacyHotelCard(el) {
+    const offer = JSON.parse(el.getAttribute('data-package-layer'));
+    const list_price_el = el.querySelector('.action-price');
+    if (list_price_el) {
+        offer.ListPrice = parseFloat(list_price_el.textContent.replace(/[^0-9,]/g, '').replace(',','.'));
+    }
+    try {
+        if (location.hostname === 'localhost') window.$ascr = '945749e37ef7088f0f49c9b7277de29c';
+        offer.Price = window.global.dataLayerManager.formatAscrPrice(offer.Price);
+    } catch(ex){}
+    return offer;
+}

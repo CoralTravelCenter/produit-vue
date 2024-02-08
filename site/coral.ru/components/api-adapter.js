@@ -2,8 +2,8 @@ import { params2query } from "./usefuls";
 import dayjs from "dayjs";
 
 export function apiUrl(endpoint) {
-    // const apiHost = location.hostname === 'localhost' ? 'http://localhost:8010/proxy' : '';
-    const apiHost = location.hostname === 'localhost' ? 'http://localhost:8888' : '';
+    const apiHost = location.hostname === 'localhost' ? 'http://localhost:8010/proxy' : '';
+    // const apiHost = location.hostname === 'localhost' ? 'http://localhost:8888' : '';
     return apiHost + endpoint;
 }
 
