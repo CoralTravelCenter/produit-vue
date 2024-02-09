@@ -1,9 +1,10 @@
-import { params2query } from "./usefuls";
+import { params2query, parseLegacyHotelCard, queryParam, waitAMoment } from "./usefuls";
 import dayjs from "dayjs";
+import hash from "object-hash";
 
 export function apiUrl(endpoint) {
-    const apiHost = location.hostname === 'localhost' ? 'http://localhost:8010/proxy' : '';
-    // const apiHost = location.hostname === 'localhost' ? 'http://localhost:8888' : '';
+    // const apiHost = location.hostname === 'localhost' ? 'http://localhost:8010/proxy' : '';
+    const apiHost = location.hostname === 'localhost' ? 'http://localhost:8888' : '';
     return apiHost + endpoint;
 }
 
@@ -48,6 +49,34 @@ export async function fetchPackageSearchLinkWithQuery(query) {
             resolve(response);
         });
     });
+}
+
+const OFFERS_CACHE = {};
+export async function fetchPackageOffersWithQueryDescriptor(query_descriptor) {
+    const q_hash = hash(query_descriptor);
+    const cached = sessionStorage.getItem(q_hash);
+    if (cached) {
+        return Promise.resolve(JSON.parse(cached));
+    } else {
+        return new Promise(async resolve => {
+            await waitAMoment();
+            const href = await fetchPackageSearchLinkWithQuery(query_descriptor.query);
+            const [url] = href.split('?');
+            const params = queryParam(undefined, href);
+            params.pp = query_descriptor.hotels.length;
+            params.f.Hid = query_descriptor.hotels;
+            let final_href = `${ url }?${ params2query(params) }`;
+            // console.log('+++ final_href: %o', final_href);
+            const search_results_html = await fetch(apiUrl(final_href)).then(response => response.text());
+
+            const domParser = new DOMParser();
+            const doc = domParser.parseFromString(search_results_html, 'text/html');
+            const items = doc.querySelectorAll('.row.item[data-package-layer]');
+            const parsed_offers = [...items].map(item_el => parseLegacyHotelCard(item_el));
+            sessionStorage.setItem(q_hash, JSON.stringify(parsed_offers));
+            resolve(parsed_offers);
+        });
+    }
 }
 export async function fetchAvailableFlights(departure, destination, charters_only) {
 

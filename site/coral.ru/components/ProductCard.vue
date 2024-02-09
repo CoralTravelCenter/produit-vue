@@ -76,5 +76,15 @@ const selectedDeparture = inject('selected-departure');
         width: 30%;
         border-left: 1px solid fade(black, 10%);
     }
+
+    overflow: hidden;
+    max-height: 20em;
+    .transit(opacity);
+    .transit(max-height);
+    &.slide-inout-enter-from, &.slide-inout-leave-to {
+        opacity: 0;
+        max-height: 0;
+    }
+
 }
 </style>

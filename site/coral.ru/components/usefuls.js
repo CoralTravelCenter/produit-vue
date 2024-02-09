@@ -87,3 +87,9 @@ export function parseLegacyHotelCard(el) {
     } catch(ex){}
     return offer;
 }
+
+export async function waitAMoment(min_sec = 2, max_sec = 5) {
+    let timeout = Math.round((min_sec + Math.random() * (max_sec - min_sec)) * 1000);
+    console.log('... awaiting %o', timeout);
+    return new Promise(resolve => setTimeout(resolve, timeout));
+}

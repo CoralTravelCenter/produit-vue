@@ -2,12 +2,15 @@
 import departures from '../config/departures.yaml';
 
 import { computed, onMounted, provide, reactive, ref, watchEffect } from "vue";
-import { observeElementProp, params2query, parseLegacyHotelCard, queryParam } from "./usefuls";
+import { observeElementProp, waitAMoment } from "./usefuls";
 import RegionSelect from "./RegionSelect.vue";
 
 import dayjs from "dayjs";
 import locale_ru from 'dayjs/locale/ru'
-import { apiUrl, fetchPackageSearchLinkWithQuery, packageQueryWithProduct } from "./api-adapter";
+import {
+    fetchPackageOffersWithQueryDescriptor,
+    packageQueryWithProduct
+} from "./api-adapter";
 dayjs.locale(locale_ru);
 
 import hash from 'object-hash';
@@ -85,6 +88,8 @@ const matchedProductList = computed(() => {
 
 const offersList = reactive([]);
 
+const offersLoading = ref(0);
+
 watchEffect(async () => {
     if (selectedDeparture.value && selectedRegion.value && selectedMonth.value) {
 
@@ -100,25 +105,18 @@ watchEffect(async () => {
         queries[q_hash].hotels.push(product.ID);
     }
     console.log('+++ queries: %o', queries);
+
     offersList.splice(0);
-    for (const q of Object.values(queries)) {
-        const href = await fetchPackageSearchLinkWithQuery(q.query);
-        const [url] = href.split('?');
-        const params = queryParam(undefined, href);
-        params.pp = q.hotels.length;
-        params.f.Hid = q.hotels;
-        let final_href = `${ url }?${ params2query(params) }`;
-        console.log('+++ final_href: %o', final_href);
-        const search_results_html = await fetch(apiUrl(final_href)).then(response => response.text());
-        // console.log(search_results_html);
-        const domParser = new DOMParser();
-        const doc = domParser.parseFromString(search_results_html, 'text/html');
-        const items = doc.querySelectorAll('.row.item[data-package-layer]');
-        const parsed_offers = [...items].map(item_el => parseLegacyHotelCard(item_el));
+    const queue = Object.values(queries);
+    offersLoading.value = 0;
+    for (const q of queue) {
+        offersLoading.value += 1/queue.length * 100;
+        const parsed_offers = await fetchPackageOffersWithQueryDescriptor(q);
         console.log('+++ parsed_offers: %o', parsed_offers);
         offersList.push(...parsed_offers);
         offersList.sort((a, b) => a.Price - b.Price);
     }
+    offersLoading.value = 0;
 });
 
 </script>
@@ -152,7 +150,7 @@ watchEffect(async () => {
                 </el-option>
             </el-select>
         </div>
-        <ProductGrid :offers="offersList"></ProductGrid>
+        <ProductGrid :offers="offersList" :in-progress="offersLoading"></ProductGrid>
     </div>
 </template>
 
@@ -166,9 +164,10 @@ watchEffect(async () => {
     --el-font-size-base: 1em!important;
     --el-component-size: 2.5em!important;
     --el-fill-color-light: fade(@coral-main-blue, 8%)!important;
+    --el-color-primary: @coral-main-blue;
 }
 
-.el-select-dropdown {
+.el-select-dropdown, .el-progress-bar {
     font-family: museosans;
     font-weight: 400;
     --el-color-primary: @coral-main-blue;
