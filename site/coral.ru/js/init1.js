@@ -15,7 +15,7 @@ createApp(ProduitVue, {
     options: {
         groupByField: 'countrylName',
         chartersOnly: false,
-        wildcardOption: 'Все отели'
+        // wildcardOption: 'Все отели'
         // groupByField: 'arealName',
     },
     productList: some_hotels

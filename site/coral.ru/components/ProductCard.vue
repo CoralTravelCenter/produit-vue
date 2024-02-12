@@ -59,7 +59,16 @@ const selectedDeparture = inject('selected-departure');
             margin: 0;
         }
         .location {
+            display: flex;
+            align-items: center;
             font-weight: 300;
+            &:before {
+                content: '';
+                height: 1.2em;
+                width: (10/16) * 1.2em;
+                background: url("data-url:/site/coral.ru/assets-inline/location-placemark.svg") center / cover no-repeat;
+                margin-right: .3em;
+            }
         }
         h3.name {
             font-size: (20/14em);

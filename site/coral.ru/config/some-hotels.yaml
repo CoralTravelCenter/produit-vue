@@ -1,5 +1,29 @@
-﻿# File created by Easy Data Transform v1_46_3 at 2024_02_06 16_55_59_339 
+﻿# File created by Easy Data Transform v1_46_3 at 2024_02_12 16_19_34_252 
 ---
+-
+  Name: OMORFI GARDEN RESORT HOTEL
+  since: 2024-04-15
+  until: 2024-04-20
+  nights: 7
+  ID: 56366
+  areaID: 8
+  areaName: Kemer
+  arealName: Кемер (Kemer)
+  categoryID: 39
+  categoryName: Certified Municipal
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-30T10:47:59.397
+  lname: OMORFI GARDEN RESORT HOTEL
+  placeID: 111
+  placeName: Goynuk
+  placelname: Гейнюк (Goynuk)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 
+  imageURL: 
 -
   Name: EFTALIA VILLAGE HOTEL
   since: 2024-04-15

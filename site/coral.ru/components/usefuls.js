@@ -82,7 +82,7 @@ export function parseLegacyHotelCard(el) {
         offer.ListPrice = parseFloat(list_price_el.textContent.replace(/[^0-9,]/g, '').replace(',','.'));
     }
     try {
-        if (location.hostname === 'localhost') window.$ascr = '945749e37ef7088f0f49c9b7277de29c';
+        if (location.hostname === 'localhost') window.$ascr = 'b5710aee2aa872ef09c455a894ae0e00';
         offer.Price = window.global.dataLayerManager.formatAscrPrice(offer.Price);
     } catch(ex){}
     return offer;
