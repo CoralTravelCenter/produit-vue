@@ -1,0 +1,1274 @@
+﻿# File created by Easy Data Transform v1_46_3 at 2024_02_13 12_14_24_229 
+---
+-
+  name: EFTALIA AQUA RESORT
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 3815
+  areaID: 3
+  areaName: Alanya
+  arealName: Аланья (Alanya)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T02:52:41.740
+  lname: EFTALIA AQUA RESORT
+  placeID: 2131
+  placeName: Turkler
+  placelname: Турклер (Turkler)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 2153290
+  imageURL: 
+-
+  name: EFTALIA BLUE
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 55032
+  areaID: 3
+  areaName: Alanya
+  arealName: Аланья (Alanya)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2023-11-29T10:10:09.820
+  lname: EFTALIA BLUE
+  placeID: 3
+  placeName: Alanya
+  placelname: Alanya
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 
+  imageURL: 
+-
+  name: EFTALIA MARIN RESORT
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 11013
+  areaID: 3
+  areaName: Alanya
+  arealName: Аланья (Alanya)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-02T04:21:37.710
+  lname: EFTALIA MARIN RESORT
+  placeID: 2131
+  placeName: Turkler
+  placelname: Турклер (Turkler)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 7201164
+  imageURL: 
+-
+  name: EFTALIA OCEAN
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 21601
+  areaID: 3
+  areaName: Alanya
+  arealName: Аланья (Alanya)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-02T05:50:16.483
+  lname: EFTALIA OCEAN
+  placeID: 2131
+  placeName: Turkler
+  placelname: Турклер (Turkler)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 12511899
+  imageURL: 
+-
+  name: EFTALIA SPLASH RESORT
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 8028
+  areaID: 3
+  areaName: Alanya
+  arealName: Аланья (Alanya)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T03:46:47.540
+  lname: EFTALIA SPLASH RESORT
+  placeID: 2131
+  placeName: Turkler
+  placelname: Турклер (Turkler)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 4738813
+  imageURL: 
+-
+  name: EFTALIA VILLAGE HOTEL
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 874
+  areaID: 3
+  areaName: Alanya
+  arealName: Аланья (Alanya)
+  categoryID: 36
+  categoryName: 5*HV
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T05:52:10.027
+  lname: EFTALIA VILLAGE HOTEL
+  placeID: 2131
+  placeName: Turkler
+  placelname: Турклер (Turkler)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 647593
+  imageURL: 
+-
+  name: KAMELYA FULYA HOTEL
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 13448
+  areaID: 10
+  areaName: Side
+  arealName: Сиде (Side)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-29T04:54:09.327
+  lname: KAMELYA FULYA HOTEL
+  placeID: 127
+  placeName: Colakli
+  placelname: Чолаклы (Colakli)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 304610
+  imageURL: 
+-
+  name: KAMELYA SELIN HOTEL
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 12880
+  areaID: 10
+  areaName: Side
+  arealName: Сиде (Side)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T04:40:11.490
+  lname: KAMELYA SELIN HOTEL
+  placeID: 127
+  placeName: Colakli
+  placelname: Чолаклы (Colakli)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 1126844
+  imageURL: 
+-
+  name: BALMY BEACH RESORT KEMER
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 29449
+  areaID: 8
+  areaName: Kemer
+  arealName: Кемер (Kemer)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2023-12-18T19:31:44
+  lname: BALMY BEACH RESORT KEMER
+  placeID: 107
+  placeName: Beldibi
+  placelname: Бельдиби (Beldibi)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 
+  imageURL: 
+-
+  name: AQI HYDROS CLUB
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 52527
+  areaID: 8
+  areaName: Kemer
+  arealName: Кемер (Kemer)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2023-11-03T16:14:20.033
+  lname: AQI HYDROS CLUB
+  placeID: 106
+  placeName: Kemer
+  placelname: Кемер (Kemer)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 
+  imageURL: 
+-
+  name: AQI PEGASOS CLUB
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 52524
+  areaID: 3
+  areaName: Alanya
+  arealName: Аланья (Alanya)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-31T07:35:33.463
+  lname: AQI PEGASOS CLUB
+  placeID: 6
+  placeName: Incekum
+  placelname: Incekum
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 1160937
+  imageURL: 
+-
+  name: AQI PEGASOS RESORT HOTEL
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 16482
+  areaID: 3
+  areaName: Alanya
+  arealName: Аланья (Alanya)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T05:05:48.030
+  lname: AQI PEGASOS RESORT HOTEL
+  placeID: 6
+  placeName: Incekum
+  placelname: Incekum
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 1129937
+  imageURL: 
+-
+  name: AQI PEGASOS ROYAL HOTEL
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 16483
+  areaID: 3
+  areaName: Alanya
+  arealName: Аланья (Alanya)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-29T04:59:28.430
+  lname: AQI PEGASOS ROYAL HOTEL
+  placeID: 6
+  placeName: Incekum
+  placelname: Incekum
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 1128010
+  imageURL: 
+-
+  name: AQI PEGASOS WORLD
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 52525
+  areaID: 10
+  areaName: Side
+  arealName: Сиде (Side)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-02T07:32:34.267
+  lname: AQI PEGASOS WORLD
+  placeID: 125
+  placeName: Titreyengol
+  placelname: Титреенгёль  (Titreyengol)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 1144460
+  imageURL: 
+-
+  name: SORGUN AKADIA LUXURY
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 30477
+  areaID: 10
+  areaName: Side
+  arealName: Сиде (Side)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-13T06:41:47.200
+  lname: SORGUN AKADIA LUXURY
+  placeID: 125
+  placeName: Titreyengol
+  placelname: Титреенгёль  (Titreyengol)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 23706381
+  imageURL: 
+-
+  name: SUENO HOTELS BEACH SIDE
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 768
+  areaID: 10
+  areaName: Side
+  arealName: Сиде (Side)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-24T05:16:59.963
+  lname: SUENO HOTELS BEACH SIDE
+  placeID: 124
+  placeName: Sorgun
+  placelname: Соргун (Sorgun)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 952353
+  imageURL: 
+-
+  name: SUENO HOTELS DELUXE BELEK
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 12914
+  areaID: 6
+  areaName: Belek
+  arealName: Белек (Belek)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T04:40:40.697
+  lname: SUENO HOTELS DELUXE BELEK
+  placeID: 1951
+  placeName: Tasliburun
+  placelname: Ташлыбурун (Tasliburun)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 8006067
+  imageURL: 
+-
+  name: SUENO HOTELS GOLF BELEK
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 981
+  areaID: 6
+  areaName: Belek
+  arealName: Белек (Belek)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T02:14:10.127
+  lname: SUENO HOTELS GOLF BELEK
+  placeID: 1951
+  placeName: Tasliburun
+  placelname: Ташлыбурун (Tasliburun)
+  regionID: 2
+  regionName: Mediterranean
+  regionlName: Анталийское (Mediterranean)
+  tripAdvisorCode: 807206
+  imageURL: 
+-
+  name: TUI BLUE SARIGERME PARK
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 52520
+  areaID: 3264
+  areaName: Dalaman
+  arealName: Даламан (Dalaman)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-18T02:01:09.077
+  lname: TUI BLUE SARIGERME PARK
+  placeID: 63
+  placeName: Sarigerme
+  placelname: Сарыгёрме (Sarigerme)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 
+  imageURL: 
+-
+  name: TUI BLUE SENO
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 52521
+  areaID: 3264
+  areaName: Dalaman
+  arealName: Даламан (Dalaman)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-18T02:01:09.077
+  lname: TUI BLUE SENO
+  placeID: 63
+  placeName: Sarigerme
+  placelname: Сарыгёрме (Sarigerme)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 
+  imageURL: 
+-
+  name: TUI BLUE TROPICAL
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 52522
+  areaID: 3264
+  areaName: Dalaman
+  arealName: Даламан (Dalaman)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-28T07:36:12.550
+  lname: TUI BLUE TROPICAL
+  placeID: 63
+  placeName: Sarigerme
+  placelname: Сарыгёрме (Sarigerme)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 619821
+  imageURL: 
+-
+  name: TUI MAGIC LIFE SARIGERME
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 52528
+  areaID: 3264
+  areaName: Dalaman
+  arealName: Даламан (Dalaman)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2023-11-29T16:06:50.007
+  lname: TUI MAGIC LIFE SARIGERME
+  placeID: 63
+  placeName: Sarigerme
+  placelname: Сарыгёрме (Sarigerme)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 
+  imageURL: 
+-
+  name: CLUB & HOTEL LETOONIA
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 565
+  areaID: 25
+  areaName: Fethiye
+  arealName: Фетхие (Fethiye)
+  categoryID: 36
+  categoryName: 5*HV
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-01T06:33:56.290
+  lname: CLUB & HOTEL LETOONIA
+  placeID: 43
+  placeName: Fethiye
+  placelname: Фетхие (Fethiye)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 315007
+  imageURL: 
+-
+  name: LIBERTY FABAY
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 34337
+  areaID: 25
+  areaName: Fethiye
+  arealName: Фетхие (Fethiye)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-29T06:54:23.893
+  lname: LIBERTY FABAY
+  placeID: 43
+  placeName: Fethiye
+  placelname: Фетхие (Fethiye)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 23242341
+  imageURL: 
+-
+  name: LIBERTY HOTELS LYKIA
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 10105
+  areaID: 25
+  areaName: Fethiye
+  arealName: Фетхие (Fethiye)
+  categoryID: 36
+  categoryName: 5*HV
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-02T04:07:58.727
+  lname: LIBERTY HOTELS LYKIA
+  placeID: 45
+  placeName: Oludeniz
+  placelname: Олюдениз (Oludeniz)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 300020
+  imageURL: 
+-
+  name: LIBERTY HOTELS LYKIA ADULT ONLY
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 10225
+  areaID: 25
+  areaName: Fethiye
+  arealName: Фетхие (Fethiye)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T04:12:25.067
+  lname: LIBERTY HOTELS LYKIA ADULT ONLY
+  placeID: 45
+  placeName: Oludeniz
+  placelname: Олюдениз (Oludeniz)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 6206482
+  imageURL: 
+-
+  name: LIBERTY SIGNA
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 56305
+  areaID: 25
+  areaName: Fethiye
+  arealName: Фетхие (Fethiye)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-17T17:11:20.773
+  lname: LIBERTY SIGNA
+  placeID: 43
+  placeName: Fethiye
+  placelname: Фетхие (Fethiye)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 
+  imageURL: 
+-
+  name: SUNDIA BY LIBERTY OLUDENIZ
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 33418
+  areaID: 25
+  areaName: Fethiye
+  arealName: Фетхие (Fethiye)
+  categoryID: 5
+  categoryName: 4*+
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-15T18:46:26.007
+  lname: SUNDIA BY LIBERTY OLUDENIZ
+  placeID: 45
+  placeName: Oludeniz
+  placelname: Олюдениз (Oludeniz)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 
+  imageURL: 
+-
+  name: SUNDIA BY LIBERTY SUNCITY
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 58251
+  areaID: 25
+  areaName: Fethiye
+  arealName: Фетхие (Fethiye)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2023-12-09T02:00:29.863
+  lname: SUNDIA BY LIBERTY SUNCITY
+  placeID: 45
+  placeName: Oludeniz
+  placelname: Олюдениз (Oludeniz)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 
+  imageURL: 
+-
+  name: SUNDIA EXCLUSIVE BY LIBERTY FETHIYE
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 56394
+  areaID: 25
+  areaName: Fethiye
+  arealName: Фетхие (Fethiye)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2023-12-01T14:59:14.600
+  lname: SUNDIA EXCLUSIVE BY LIBERTY FETHIYE
+  placeID: 43
+  placeName: Fethiye
+  placelname: Фетхие (Fethiye)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 
+  imageURL: 
+-
+  name: TUANA CLUB FETHIYE
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 17847
+  areaID: 25
+  areaName: Fethiye
+  arealName: Фетхие (Fethiye)
+  categoryID: 36
+  categoryName: 5*HV
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-02T05:14:12.243
+  lname: TUANA CLUB FETHIYE
+  placeID: 2130
+  placeName: Yaniklar
+  placelname: Яныклар (Yaniklar)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 553651
+  imageURL: 
+-
+  name: FLAMINGO HOTEL
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 722
+  areaID: 30
+  areaName: Marmaris
+  arealName: Мармарис (Marmaris)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T05:07:31.687
+  lname: FLAMINGO HOTEL
+  placeID: 60
+  placeName: Marmaris Siteler
+  placelname: Мармарис Сителер (Marmaris Siteler)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 316151
+  imageURL: 
+-
+  name: PRIME BEACH HOTEL
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 4407
+  areaID: 30
+  areaName: Marmaris
+  arealName: Мармарис (Marmaris)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-29T02:56:55.477
+  lname: PRIME BEACH HOTEL (EX. IDEAL PRIME BEACH)
+  placeID: 60
+  placeName: Marmaris Siteler
+  placelname: Мармарис Сителер (Marmaris Siteler)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 2136580
+  imageURL: 
+-
+  name: PREMIER NERGIS BEACH HOTEL & SPA
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 30730
+  areaID: 30
+  areaName: Marmaris
+  arealName: Мармарис (Marmaris)
+  categoryID: 5
+  categoryName: 4*+
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-28T06:52:03.393
+  lname: PREMIER NERGIS BEACH HOTEL & SPA
+  placeID: 60
+  placeName: Marmaris Siteler
+  placelname: Мармарис Сителер (Marmaris Siteler)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 20175216
+  imageURL: 
+-
+  name: TUI BLUE GRAND AZUR
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 52523
+  areaID: 30
+  areaName: Marmaris
+  arealName: Мармарис (Marmaris)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-31T02:10:23.270
+  lname: TUI BLUE GRAND AZUR
+  placeID: 130
+  placeName: Marmaris
+  placelname: Мармарис (Marmaris)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 300032
+  imageURL: 
+-
+  name: AQUASIS DE LUXE RESORT & SPA
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 16396
+  areaID: 24
+  areaName: Didim
+  arealName: Дидим (Didim)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-29T04:58:58.507
+  lname: AQUASIS DE LUXE RESORT & SPA
+  placeID: 8653
+  placeName: Altinkum
+  placelname: Алтынкум (Altinkum)
+  regionID: 15012
+  regionName: Aydın
+  regionlName: Aydın
+  tripAdvisorCode: 9733093
+  imageURL: 
+-
+  name: ARMONIA HOLIDAY VILLAGE & SPA
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 358
+  areaID: 1
+  areaName: Bodrum
+  arealName: Бодрум (Bodrum)
+  categoryID: 36
+  categoryName: 5*HV
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T02:05:49.420
+  lname: ARMONIA HOLIDAY VILLAGE & SPA
+  placeID: 29
+  placeName: Akyarlar
+  placelname: Акьярлар (Akyarlar)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 1097054
+  imageURL: 
+-
+  name: AYAZ AQUA BEACH HOTEL
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 25495
+  areaID: 1
+  areaName: Bodrum
+  arealName: Бодрум (Bodrum)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-26T11:57:58.470
+  lname: AYAZ AQUA BEACH HOTEL
+  placeID: 19
+  placeName: Gumbet
+  placelname: Гюмбет (Gumbet)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 314621
+  imageURL: 
+-
+  name: BLUE DREAMS RESORT
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 799
+  areaID: 1
+  areaName: Bodrum
+  arealName: Бодрум (Bodrum)
+  categoryID: 36
+  categoryName: 5*HV
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-27T04:51:11.330
+  lname: BLUE DREAMS RESORT
+  placeID: 32
+  placeName: Kaynar
+  placelname: Кайнар (Kaynar)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 502827
+  imageURL: 
+-
+  name: BODRUM HOLIDAY RESORT & SPA
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 4233
+  areaID: 1
+  areaName: Bodrum
+  arealName: Бодрум (Bodrum)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-01T02:56:23.790
+  lname: BODRUM HOLIDAY RESORT & SPA
+  placeID: 21
+  placeName: Icmeler
+  placelname: Ичмелер (Icmeler)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 296160
+  imageURL: 
+-
+  name: HOLIDAY INN RESORT BODRUM HOTEL
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 50385
+  areaID: 1
+  areaName: Bodrum
+  arealName: Бодрум (Bodrum)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T07:29:23.997
+  lname: HOLIDAY INN RESORT BODRUM HOTEL
+  placeID: 210
+  placeName: Bodrum
+  placelname: Бодрум (Bodrum)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 6678203
+  imageURL: 
+-
+  name: HOTEL SAMARA
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 800
+  areaID: 1
+  areaName: Bodrum
+  arealName: Бодрум (Bodrum)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-02T07:09:57.073
+  lname: SAMARA HOTEL
+  placeID: 32
+  placeName: Kaynar
+  placelname: Кайнар (Kaynar)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 295823
+  imageURL: 
+-
+  name: LAUR HOTEL EXPERIENCE & LAUR HOTELS ELEGANCE
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 6936
+  areaID: 24
+  areaName: Didim
+  arealName: Дидим (Didim)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-31T03:29:24.803
+  lname: LAUR HOTEL EXPERIENCE & LAUR HOTELS ELEGANCE
+  placeID: 8653
+  placeName: Altinkum
+  placelname: Алтынкум (Altinkum)
+  regionID: 15012
+  regionName: Aydın
+  regionlName: Aydın
+  tripAdvisorCode: 447584
+  imageURL: 
+-
+  name: MAXERIA BLUE DIDYMA
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 30897
+  areaID: 24
+  areaName: Didim
+  arealName: Дидим (Didim)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-01T06:55:14.380
+  lname: MAXERIA BLUE DIDYMA
+  placeID: 40
+  placeName: Didim
+  placelname: Дидим (Didim)
+  regionID: 15012
+  regionName: Aydın
+  regionlName: Aydın
+  tripAdvisorCode: 20865125
+  imageURL: 
+-
+  name: TIANA BEACH HOTEL
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 12520
+  areaID: 1
+  areaName: Bodrum
+  arealName: Бодрум (Bodrum)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-15T18:44:00.670
+  lname: TIANA BEACH HOTEL
+  placeID: 22
+  placeName: Kadikalesi
+  placelname: Кадикалеси (Kadikalesi)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 12337700
+  imageURL: 
+-
+  name: VOGUE HOTEL SUPREME BODRUM
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 8213
+  areaID: 1
+  areaName: Bodrum
+  arealName: Бодрум (Bodrum)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T03:49:18.940
+  lname: VOGUE HOTEL SUPREME BODRUM
+  placeID: 32
+  placeName: Kaynar
+  placelname: Кайнар (Kaynar)
+  regionID: 1
+  regionName: Muğla
+  regionlName: Muğla
+  tripAdvisorCode: 3700591
+  imageURL: 
+-
+  name: ARIA CLAROS BEACH SPA & RESORT
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 6975
+  areaID: 32
+  areaName: Ozdere
+  arealName: Оздере (Ozdere)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T03:32:13.977
+  lname: ARIA CLAROS BEACH SPA & RESORT
+  placeID: 68
+  placeName: Ozdere
+  placelname: Оздере (Ozdere)
+  regionID: 11817
+  regionName: Izmir
+  regionlName: Izmir
+  tripAdvisorCode: 1412046
+  imageURL: 
+-
+  name: INFINITY BY YELKEN KUSADASI
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 5205
+  areaID: 28
+  areaName: Kusadasi
+  arealName: Кушадасы (Kusadasi)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-19T03:06:36.783
+  lname: INFINITY BY YELKEN KUSADASI
+  placeID: 8655
+  placeName: Kadinlar Denizi
+  placelname: Кадынлар Денизи (Kadinlar Denizi)
+  regionID: 15012
+  regionName: Aydın
+  regionlName: Aydın
+  tripAdvisorCode: 15617422
+  imageURL: 
+-
+  name: LADONIA HOTELS ADAKULE
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 5217
+  areaID: 28
+  areaName: Kusadasi
+  arealName: Кушадасы (Kusadasi)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T19:14:56.577
+  lname: LADONIA HOTELS ADAKULE
+  placeID: 51
+  placeName: Kusadasi
+  placelname: Кушадасы (Kusadasi)
+  regionID: 15012
+  regionName: Aydın
+  regionlName: Aydın
+  tripAdvisorCode: 550997
+  imageURL: 
+-
+  name: PINE BAY HOLIDAY RESORT
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 5174
+  areaID: 28
+  areaName: Kusadasi
+  arealName: Кушадасы (Kusadasi)
+  categoryID: 36
+  categoryName: 5*HV
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-03T03:09:09.660
+  lname: PINE BAY HOLIDAY RESORT
+  placeID: 51
+  placeName: Kusadasi
+  placelname: Кушадасы (Kusadasi)
+  regionID: 15012
+  regionName: Aydın
+  regionlName: Aydın
+  tripAdvisorCode: 300857
+  imageURL: 
+-
+  name: SEALIGHT FAMILY CLUB
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 15254
+  areaID: 28
+  areaName: Kusadasi
+  arealName: Кушадасы (Kusadasi)
+  categoryID: 2
+  categoryName: 4*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-01T05:03:16.703
+  lname: SEALIGHT FAMILY CLUB
+  placeID: 8655
+  placeName: Kadinlar Denizi
+  placelname: Кадынлар Денизи (Kadinlar Denizi)
+  regionID: 15012
+  regionName: Aydın
+  regionlName: Aydın
+  tripAdvisorCode: 14938701
+  imageURL: 
+-
+  name: TUSAN BEACH RESORT
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 6659
+  areaID: 28
+  areaName: Kusadasi
+  arealName: Кушадасы (Kusadasi)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-02-02T03:25:43.677
+  lname: TUSAN BEACH RESORT
+  placeID: 51
+  placeName: Kusadasi
+  placelname: Кушадасы (Kusadasi)
+  regionID: 15012
+  regionName: Aydın
+  regionlName: Aydın
+  tripAdvisorCode: 508157
+  imageURL: 
+-
+  name: LIBERTY GOLF & RESORT KUSADASI
+  since: 2024-05-12
+  until: 2024-05-17
+  nights: 7
+  ID: 58222
+  areaID: 28
+  areaName: Kusadasi
+  arealName: Кушадасы (Kusadasi)
+  categoryID: 1
+  categoryName: 5*
+  countryID: 1
+  countryName: Turkey
+  countrylName: Турция
+  lastUpdate: 2024-01-19T02:00:35.627
+  lname: LIBERTY GOLF & RESORT KUSADASI (ex. SEVEN SEAS SEALIGHT ELITE)
+  placeID: 51
+  placeName: Kusadasi
+  placelname: Кушадасы (Kusadasi)
+  regionID: 15012
+  regionName: Aydın
+  regionlName: Aydın
+  tripAdvisorCode: 
+  imageURL: 
