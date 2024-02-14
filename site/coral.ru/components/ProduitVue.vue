@@ -16,7 +16,13 @@ dayjs.locale(locale_ru);
 import hash from 'object-hash';
 import ProductGrid from "./ProductGrid.vue";
 
-const props = defineProps(['options', 'productList']);
+const props = defineProps({
+    options: {
+        type: Object,
+        default: { groupByField: 'countrylName', chartersOnly: true }
+    },
+    productList: { type: Array, default: [] }
+});
 
 
 
@@ -84,6 +90,10 @@ const matchedProductList = computed(() => {
         });
     }
     return [];
+});
+
+const selectedCountry = computed(() => {
+    return props.productList.find(p => p[props.options.groupByField] === selectedRegion.value)?.countrylName;
 });
 
 const offersList = reactive([]);
