@@ -12,20 +12,22 @@ export async function preloadScript(url, cb) {
 }
 
 export function observeElementProp(el, prop, callback) {
-    const proto = Object.getPrototypeOf(el);
-    if (proto.hasOwnProperty(prop)) {
-        const descr = Object.getOwnPropertyDescriptor(proto, prop);
-        Object.defineProperty(el, prop, {
-            get() {
-                return descr.get.apply(this, arguments);
-            },
-            set(v) {
-                const oldv = this[prop];
-                descr.set.apply(this, arguments);
-                const newv = v;
-                if (newv !== oldv) setTimeout(callback.bind(this, newv, oldv), 0);
-            },
-        });
+    if (el) {
+        const proto = Object.getPrototypeOf(el);
+        if (proto?.hasOwnProperty(prop)) {
+            const descr = Object.getOwnPropertyDescriptor(proto, prop);
+            Object.defineProperty(el, prop, {
+                get() {
+                    return descr.get.apply(this, arguments);
+                },
+                set(v) {
+                    const oldv = this[prop];
+                    descr.set.apply(this, arguments);
+                    const newv = v;
+                    if (newv !== oldv) setTimeout(callback.bind(this, newv, oldv), 0);
+                },
+            });
+        }
     }
 }
 
